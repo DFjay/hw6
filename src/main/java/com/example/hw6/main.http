@@ -1,0 +1,15 @@
+###
+GET localhost:8080/myHeaders
+
+###
+POST localhost:8080/createPerson
+Content-Type: application/json
+
+{
+  "price": 125.0,
+  "info": {
+    "date": "2022-01-01"
+  }
+}
+
+###
